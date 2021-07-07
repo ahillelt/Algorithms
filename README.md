@@ -1,2 +1,2 @@
 # Algorithms
-Collection of Algorithms coded in such a way it's easy to follow
+Collection of Algorithms coded in Python so it is easy to follow
