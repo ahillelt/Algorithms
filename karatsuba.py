@@ -1,6 +1,5 @@
 import math
 
-
 def base10_size(num): #alternative exists
     string_num = str(num)
     length = len(string_num)
@@ -26,17 +25,13 @@ def karatsuba(x,y):
         pq = karatsuba(p,q)
         adbc = pq - ac - bd
 
-        #TODO: figure out why middle*2 works but not n. 
         result =(pow(10,middle*2)*ac) + (pow(10,middle)*adbc) + bd
         return result
 
-
 ###################################
-
 
 num1 = int(input("num1: "))
 num2 = int(input("num2: "))
-
 
 results = karatsuba(num1,num2)
 print("result: ", results)
